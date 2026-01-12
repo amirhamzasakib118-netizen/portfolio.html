@@ -30,6 +30,22 @@
    cursor: pointer;
 }
 
+.heading-section {
+    max-width: 827px;
+    text-align: center;
+}
+.heading-section h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.heading-section p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+
 /* main style */
 
 
@@ -42,7 +58,7 @@ header {
 }
 
 nav {
-    width: 74.51%;
+    width: 71%;
     max-width: 1140px;
     /* border: 1px solid red; */
     margin: 0 auto;
@@ -99,4 +115,31 @@ nav .menu a {
     max-width: 584px;
     vertical-align: middle;
 
+}
+#about {
+    padding-top: 130px;
+}
+
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 131px 157px 156px;
+}
+
+#about .about-container .about-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-card .card-container p {
+        font-size: 20px;
+        line-height: 30px;
+        color: #757575;
+}
+
+.about-card .card-container h4 {
+    font-size: 20px;
 }
